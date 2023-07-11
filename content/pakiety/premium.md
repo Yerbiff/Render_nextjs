@@ -1,13 +1,11 @@
 ---
 title: Premium
-image: /images/pakiety/swatch-miodowy-pastelowy.jpg
-description: this is meta description
-price: '1200zł / mies'
+description: Ten pakiet dostarcza zaawansowanych rozwiązań, które pomogą Ci osiągnąć wyższy poziom widoczności i skuteczności w mediach społecznościowych.
+price: '2500zł '
+color: 'bg-yellow-400'
+cechy:
+- Ekskluzywne kreacje graficzne dopasowane do Twojej marki
+- Zaawansowane zarządzanie społecznościami online
+- Strategiczne kampanie reklamowe dla większego zasięgu
+- Pełna analiza wyników i rekomendacje optymalizacyjne
 ---
-
-Nasz Plan Premium to kompleksowe rozwiązanie dla  przedsiębiorstw, które poszukują zaawansowanych strategii reklamowych i większego zasięgu. Oferujemy pełen wachlarz usług, które pomogą wzmocnić Twoją markę i osiągnąć znaczące wyniki. Ten plan obejmuje wszystko, co znajduje się w Planie Podstawowym, a także:
-
-Skonfigurowanie i zarządzanie kampaniami reklamowymi w Google Ads, Facebook Ads i innych platformach reklamowych.
-Analizę konkurencji i badanie rynku w celu dostosowania strategii reklamowej.
-Tworzenie zaawansowanych treści multimedialnych, takich jak wideo reklamowe czy animacje.
-Monitorowanie i optymalizację kampanii reklamowych w czasie rzeczywistym.
