@@ -104,6 +104,27 @@ const Oferta = () => {
           </p>
         </div>
       </div>
+      <p className="mx-auto text-xl text-center text-gray-300 font-normal leading-relaxed fs521 lg:w-2/3">
+      W naszej agencji social mediowej wyróżniamy się unikalnymi cechami, które odróżniają nas od innych agencji.
+      </p>
+      <div className="pt-32 pb-32 max-w-6xl mx-auto fsac4 md:px-1 px-3">
+        <div class="ktq4">
+          <h3 class="pt-3 font-semibold text-lg text-white">
+            Ekspertyza i Innowacyjność
+          </h3>
+          <p class="pt-2 value-text text-md text-gray-200 fkrr1">
+            Posiadamy głęboką wiedzę na temat mechanizmów social mediów i jesteśmy na bieżąco z trendami. Nasz zespół ciągle eksploruje nowe strategie i technologie, aby zapewnić, że Twoja marka wyróżnia się spośród konkurencji. Łączymy kreatywność z opartymi na danych wnioskami, aby dostarczyć wyjątkowe rezultaty.
+          </p>
+        </div>
+        <div class="ktq4">
+          <h3 class="pt-3 font-semibold text-lg text-white">
+            Indywidualne Podejście
+          </h3>
+          <p class="pt-2 value-text text-md text-gray-200 fkrr1">
+            Wierzymy w dostosowywanie naszych usług do Twoich unikalnych potrzeb. Nasz zespół poświęca czas na zrozumienie Twojej marki, grupy docelowej i celów. Tworzymy spersonalizowane strategie social media, które harmonizują z głosem i wartościami Twojej marki, zapewniając maksymalny wpływ i zaangażowanie.
+          </p>
+        </div>
+      </div>
       <div className="grr max-w-7xl pt-20 mx-auto text-center">
         <h1 className="mb-8 text-6xl Avenir font-semibold text-gray-200">
           Skuteczne strategie, lepsze wyniki
