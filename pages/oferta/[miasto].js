@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import ofertaImg from "../../public/images/oferta-min.webp"
 import ofertaTopImg from "../../public/images/ofertaTop-min.webp"
-import icon from "../../public/images/icon-min.webp"
 
 const Oferta = () => {
   const cities = [

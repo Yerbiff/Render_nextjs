@@ -13,6 +13,7 @@ export default function Header() {
       <div class="container mx-auto flex flex-wrap p-5 md:flex-row">
         <Logo/>
         <button
+            id="nav"
             className="text-white cursor-pointer text-xl leading-none py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none ml-auto pb-3"
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
