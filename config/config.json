@@ -2,7 +2,7 @@
   "site": {
     "title": "ArtEffect | Sztuka w Twoich social mediach",
     "base_url": "/",
-    "favicon": "/images/favicon-min.webp",
+    "favicon": "/images/favicon.png",
     "logo": "/images/logo-min.webp",
     "logo_width": "200",
     "logo_height": "38",
@@ -23,6 +23,6 @@
   "metadata": {
     "meta_author": "me",
     "meta_image": "/images/og-image-min.webp",
-    "meta_description": "ArtEffect Sztuka w Twoich social mediach"
+    "meta_description": "Odkryj ArtEffect - sztukę w Twoich mediach społecznościowych. Wzbudź zainteresowanie i podziw swoimi unikalnymi treściami. Spraw, by Twoje profile były wyjątkowe!"
   }
 }
