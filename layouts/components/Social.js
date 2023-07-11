@@ -63,7 +63,7 @@ const Social = ({ source, className }) => {
   return (
     <ul className={className}>
       {facebook && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="facebook"
             href={facebook}
@@ -75,7 +75,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {twitter && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="twitter"
             href={twitter}
@@ -87,7 +87,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {instagram && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="instagram"
             href={instagram}
@@ -99,7 +99,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {youtube && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="youtube"
             href={youtube}
@@ -111,7 +111,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {linkedin && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="linkedin"
             href={linkedin}
@@ -123,7 +123,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {github && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="github"
             href={github}
@@ -135,7 +135,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {gitlab && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="gitlab"
             href={gitlab}
@@ -147,7 +147,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {medium && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="medium"
             href={medium}
@@ -159,7 +159,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {codepen && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="codepen"
             href={codepen}
@@ -171,7 +171,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {bitbucket && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="bitbucket"
             href={bitbucket}
@@ -183,7 +183,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {dribbble && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="dribbble"
             href={dribbble}
@@ -195,7 +195,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {behance && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="behance"
             href={behance}
@@ -207,7 +207,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {pinterest && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="pinterest"
             href={pinterest}
@@ -219,7 +219,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {soundcloud && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="soundcloud"
             href={soundcloud}
@@ -231,7 +231,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {tumblr && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="tumblr"
             href={tumblr}
@@ -243,7 +243,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {reddit && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="reddit"
             href={reddit}
@@ -255,7 +255,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {vk && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="vk"
             href={vk}
@@ -267,7 +267,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {whatsapp && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="whatsapp"
             href={whatsapp}
@@ -279,7 +279,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {snapchat && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="snapchat"
             href={snapchat}
@@ -291,7 +291,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {vimeo && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="vimeo"
             href={vimeo}
@@ -303,7 +303,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {tiktok && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="tiktok"
             href={tiktok}
@@ -315,7 +315,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {foursquare && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="foursquare"
             href={foursquare}
@@ -327,7 +327,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {skype && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="skype"
             href={skype}
@@ -339,7 +339,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {website && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="website"
             href={website}
@@ -351,7 +351,7 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {rss && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="rss feed"
             href={rss}
@@ -363,21 +363,21 @@ const Social = ({ source, className }) => {
         </li>
       )}
       {email && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a aria-label="email" href={`mailto:${email}`}>
             <IoMail />
           </a>
         </li>
       )}
       {phone && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a aria-label="telephone" href={`tel:${phone}`}>
             <IoCall />
           </a>
         </li>
       )}
       {address && (
-        <li className="inline-block">
+        <li className="inline-block ml-3">
           <a
             aria-label="location"
             href={address}

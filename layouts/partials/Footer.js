@@ -1,31 +1,18 @@
 import Social from "@components/Social";
-import config from "@config/config.json";
-import menu from "@config/menu.json";
 import social from "@config/social.json";
-import { markdownify } from "@lib/utils/textConverter";
-import Link from "next/link";
+import Logo from "@layouts/components/Logo";
 
 const Footer = () => {
-  const { copyright } = config.params;
   return (
-    <footer className="section bg-theme-dark">
-      <div className="container text-center">
-        {/* footer menu */}
-        <ul className="mb-8 space-x-4">
-          {menu.footer.map((menu) => (
-            <li className="inline-block" key={menu.name}>
-              <Link href={menu.url} className="p-4 text-light hover:text-white">
-                {menu.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-        {/* social icons */}
+    <footer className="text-white body-font flex-shrink-0 flex-basis-auto">
+      <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+       <Logo/>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         <Social source={social} className="social-icons mb-8" />
-        {/* copyright */}
-        {markdownify(copyright, "p", "text-light")}
+        </span>
       </div>
     </footer>
+    
   );
 };
 

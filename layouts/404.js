@@ -8,7 +8,7 @@ const NotFound = ({ data }) => {
       <div className="container">
         <div className="flex h-[40vh] items-center justify-center">
           <div className="text-center">
-            <h1 className="mb-4">{frontmatter.title}</h1>
+            <h1 className="mb-4 text-white">{frontmatter.title}</h1>
             {markdownify(content, "div", "content prose-headings:text-text")}
           </div>
         </div>

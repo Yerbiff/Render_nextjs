@@ -1,46 +1,21 @@
-html {
-  @apply text-base;
-}
-
+html,
 body {
-  @apply bg-body font-primary font-normal leading-relaxed text-text;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: black;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply font-primary font-bold leading-tight text-dark;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-h1,
-.h1 {
-  @apply text-h1-sm md:text-h1;
+* {
+  box-sizing: border-box;
 }
 
-h2,
-.h2 {
-  @apply text-h2-sm md:text-h2;
-}
-
-h3,
-.h3 {
-  @apply text-h3-sm md:text-h3;
-}
-
-h4,
-.h4 {
-  @apply text-h4;
-}
-
-h5,
-.h5 {
-  @apply text-h5;
-}
-
-h6,
-.h6 {
-  @apply text-h6;
+.g327 {
+  border-color: #302f30;
 }

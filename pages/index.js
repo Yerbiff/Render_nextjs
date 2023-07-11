@@ -1,20 +1,15 @@
 import Hero from "@layouts/partials/Landing-Page/Hero"
-import Services from "@layouts/partials/Landing-Page/Services";
-import Finisher from "@layouts/partials/Landing-Page/Finisher";
-import Contact from "@layouts/partials/Landing-Page/Contact";
+import Metrics from "@layouts/partials/Landing-Page/Metrics";
 import Featured from "@layouts/partials/Landing-Page/Featured";
 
 const LandingPage = () => {
 
   return (
-    <div>
-      <Hero />
-      <Services/>
-      <Featured/>
-      <Finisher/>
-      <Contact/>
-    </div>
-  
+      <section class="text-black body-font lg:pt-20">
+        <Hero />
+        <Metrics/>
+        <Featured/>
+      </section>
   );
 }
 

@@ -89,7 +89,7 @@ const Base = ({
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <main>{children}</main>
+      <main className="flex flex-col min-h-screen">{children}</main>
     </>
   );
 };

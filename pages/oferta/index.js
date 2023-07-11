@@ -1,32 +1,24 @@
 import Link from "next/link";
-import { useRouter } from 'next/router';
 
 const Oferta = () => {
   const cities = [
-    { name: 'Wrocław', slug: 'wroclaw' },
-    { name: 'Bydgoszcz', slug: 'bydgoszcz' },
-    { name: 'Lublin', slug: 'lublin' },
-    { name: 'Zielona Góra', slug: 'zielona-gora' },
-    { name: 'Łódź', slug: 'lodz' },
-    { name: 'Kraków', slug: 'krakow' },
-    { name: 'Warszawa', slug: 'warszawa' },
-    { name: 'Opole', slug: 'opole' },
-    { name: 'Rzeszów', slug: 'rzeszow' },
-    { name: 'Białystok', slug: 'bialystok' },
-    { name: 'Gdańsk', slug: 'gdansk' },
-    { name: 'Katowice', slug: 'katowice' },
-    { name: 'Kielce', slug: 'kielce' },
-    { name: 'Olsztyn', slug: 'olsztyn' },
-    { name: 'Poznań', slug: 'poznan' },
-    { name: 'Szczecin', slug: 'szczecin' },
+    { name: 'Wrocław', nameSite: 'Wrocławiu', slug: 'agencja-social-media-wroclaw' },
+    { name: 'Bydgoszcz', nameSite: 'Bydgoszczy', slug: 'agencja-social-media-bydgoszcz' },
+    { name: 'Lublin', nameSite: 'Lublinie', slug: 'agencja-social-media-lublin' },
+    { name: 'Zielona Góra', nameSite: 'Zielonej Górze', slug: 'agencja-social-media-zielona-gora' },
+    { name: 'Łódź', nameSite: 'Łodzi', slug: 'agencja-social-media-lodz' },
+    { name: 'Kraków', nameSite: 'Krakowie', slug: 'agencja-social-media-krakow' },
+    { name: 'Warszawa', nameSite: 'Warszawie', slug: 'agencja-social-media-warszawa' },
+    { name: 'Opole', nameSite: 'Opolu', slug: 'agencja-social-media-opole' },
+    { name: 'Rzeszów', nameSite: 'Rzeszowie', slug: 'agencja-social-media-rzeszow' },
+    { name: 'Białystok', nameSite: 'Białystoku', slug: 'agencja-social-media-bialystok' },
+    { name: 'Gdańsk', nameSite: 'Gdańsku', slug: 'agencja-social-media-gdansk' },
+    { name: 'Katowice', nameSite: 'Katowicach', slug: 'agencja-social-media-katowice' },
+    { name: 'Kielce', nameSite: 'Kielcach', slug: 'agencja-social-media-kielce' },
+    { name: 'Olsztyn', nameSite: 'Olsztynie', slug: 'agencja-social-media-olsztyn' },
+    { name: 'Poznań', nameSite: 'Poznaniu', slug: 'agencja-social-media-poznan' },
+    { name: 'Szczecin', nameSite: 'Szczecinie', slug: 'agencja-social-media-szczecin' },
   ];
-  // const router = useRouter();
-  // const { lokalizacja } = router.query;
-
-  // if (lokalizacja) {
-  //   // Kod obsługi strony "/oferta/:lokalizacja" tutaj
-  //   return <h1>Strona oferta dla {lokalizacja}</h1>;
-  // }
   return (
     <section className="text-gray-600 body-font">
     <div className="max-w-7xl mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
