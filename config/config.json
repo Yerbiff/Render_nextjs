@@ -2,8 +2,8 @@
   "site": {
     "title": "ArtEffect | Sztuka w Twoich social mediach",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "favicon": "/images/favicon-min.webp",
+    "logo": "/images/logo-min.webp",
     "logo_width": "200",
     "logo_height": "38",
     "logo_text": "ArtEffect"
@@ -22,7 +22,7 @@
 
   "metadata": {
     "meta_author": "me",
-    "meta_image": "/images/og-image.png",
+    "meta_image": "/images/og-image-min.webp",
     "meta_description": "ArtEffect Sztuka w Twoich social mediach"
   }
 }

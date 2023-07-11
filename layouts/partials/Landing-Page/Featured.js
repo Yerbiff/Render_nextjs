@@ -1,5 +1,5 @@
 import Image from "next/image";
-import featuredImg from "../../../public/images/featured.jpg"
+import featuredImg from "../../../public/images/featured-min.webp"
 
 const Featured = () => {
   return (

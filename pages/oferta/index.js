@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
-import ofertaImg from "../../public/images/oferta.jpg"
-import ofertaTopImg from "../../public/images/ofertaTop.jpg"
-import icon from "../../public/images/icon.png"
+import ofertaImg from "../../public/images/oferta-min.webp"
+import ofertaTopImg from "../../public/images/ofertaTop-min.webp"
+// import icon from "../../public/images/icon-min.webp"
 
 const Oferta = () => {
   const cities = [

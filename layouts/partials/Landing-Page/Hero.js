@@ -1,5 +1,5 @@
 import Link from "next/link";
-import heroImg from "../../../public/images/hero.jpg"
+import heroImg from "../../../public/images/hero-min.webp"
 import Image from "next/image";
 
 const Hero = () => {
